@@ -75,7 +75,7 @@ class liveTrading():
             time.sleep(.5)
             order = self.exchange.fetch_order(order['info']['id'])
             print(order)
-            if order['status'].lower() != 'filled':
+            if order['status'].lower() != 'closed':
                 best_bid = self.get_best_bid()
 
                 if best_bid > limit_price:
