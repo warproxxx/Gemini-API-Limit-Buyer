@@ -4,4 +4,4 @@ Gemini charges 1.5% fee while buying on the interface. 0.35% when using ActiveTr
 1) Install redis and the requirements
 2) Generate your Primary Account API and add GEMINI_KEY and GEMINI_SECRET to PATH
 3) Install requirements
-4) python3 trade.py ETH-USD
+4) python3 trade.py gemini ETH-USD buy
